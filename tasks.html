@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><fast-physics></fast-physics></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+
+ <body>
+  <header id="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__section logo">
+          <img src="images/atom.svg" alt="" class="logo__img">
+          <a href="index.html" class="logo">[FAST-PHYSICS]</a>
+        </div>
+        <div class="header__section">
+          <div class="header__item"><a href="Пока не готово" class="header_link">Новости</a></div>
+          <div class="header__item dropdown">
+            <div class="dropdown">
+              <a href="sections.html" class="header_link">Разделы</a>
+              <div class="dropdown-content">
+                <a href="index.html">Механика</a>
+                <a href="Пока не готово">МКТ</a>
+                <a href="Пока не готово">Электродинамика</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__item"><a href="tasks.html" class="header_link">Задания</a></div>
+          <div class="header__item"><a href="tables.html" class="header_link">Полезное</a></div>
+          <div class="header__item"><a href="Пока не готово" class="header_link">Контакты</a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+      <div class="container">
+          <div class="main__wrapper">
+              <div class="main__content">
+                  <div class="tasks__dropdown">
+                    <div class="tasks__dropdown-title">
+                      <h1 class="content__title">Кинематика</h1>
+                      <input class="icon__img" id="show__btn" type="image" src="images/Arrow-down.svg.png" value="Показать решение" onmousedown="showBtn()">
+                    </div>
+                    <div class="tasks__dropdown-content" id="tasks">
+                      <div class="task">
+                        <p class="common__content">Хоккейная шайба проскользила по льду за 2,5 с расстояние равное 50 м и остановилась. Выяснить, с каким ускорением двигалась шайба.</p>
+                        <input class="solution__button1" id="solution__button1" type="button" value="Показать ответ" onmousedown="viewDiv()">
+                        <p class="common__content" id="task1">16 м/с²</p>
+                      </div>
+                      <div class="task">
+                        <p class="common__content">Са­мо­лет, ле­тя­щий со ско­ро­стью 900 км/ч, со­вер­ша­ет по­сад­ку. Время до пол­ной оста­нов­ки са­мо­ле­та 25 с. Определите длину взлет­ной по­ло­сы.</p>
+                        <input class="solution__button2" id="solution__button2" type="button" value="Показать ответ" onmousedown="viewDiv()">
+                        <p class="common__content" id="task2">3125 м</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tasks__dropdown">
+                    <div class="tasks__dropdown-title">
+                      <h1 class="content__title">Динамика</h1>
+                      <img class="icon__img" src="images/Arrow-down.svg.png">
+                  </div>
+                  <div class="up-btn"><a href="#header">Наверх🠕</a></div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>  
+ </body>
+
+</html>
+  
